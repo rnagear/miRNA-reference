@@ -25,6 +25,11 @@ The scores reported by the source algorithms are used as training features for s
 via a selection of classification algorithms.
 
 This repository contains the script used to process the input data into a single R list object.
+Note that execution of this script will require the source databases to be separately obtained from
+the sources indicated above. The required directory structure for the location of the source
+files is indicates in the `fread` statements in the script where the source files are read. Further
+information is provided in comments in the script.
+
 Also contained are flat text files derived from sets of validated miRNA:target gene interactions
 consisting of:
   * the complete collection of validated interactions including the source of the experimental data
