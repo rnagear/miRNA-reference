@@ -17,7 +17,7 @@ Included files:
     - data used to train the machine learning models to classify miRNA:target interactions
     - columns: Type (as above), the remaining columns (diana, mirmap, mirtarget, mirza_U, paccmit, targetscan_C, targetscan_NC)
       correspond to the prediction scores of the input algorithms (see associated publication for further details). The \_U suffix
-      indicated the union set of all MIRZA predictions, tne \_C and \_NC indicate the TargetScan conserved, and non-conserved
+      indicates the union set of all MIRZA predictions, tne \_C and \_NC indicate the TargetScan conserved, and non-conserved
       interactions respectively.
       
   * `test_data.txt`
